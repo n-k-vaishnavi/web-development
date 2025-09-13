@@ -1,0 +1,94 @@
+body{
+    background-color:#dfe3dc;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-top:125px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img{
+    width:120px;
+    height: 120px;
+    border:none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #333;
+    margin:10px;
+}
+
+h2{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+p{
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    background-color: blueviolet;
+    color: beige;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+    border: none;
+    box-shadow: 0px 10px 40px #ff8cfb;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: magenta;
+    color: ghostwhite;
+}
+
+.tae:hover{
+    background-color: rgba(252, 187, 250,0.8);
+}
+
+.hae:hover{
+    background-color: #cffcbb;
+}
+
+.pond:hover{
+    background-color: #ffc4cc;
+}
+
+.tae{
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #333;
+}
+
+.hae{
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #333;
+}
+
+.pond{
+    padding: 10px;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #333;
+}
