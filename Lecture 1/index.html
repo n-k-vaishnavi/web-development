@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar system</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header><h1>Wonders of the solar system</h1>
+    <nav>
+        <ul>
+            <li><a href="#planettable">Planet Table</a></li>
+            <li><a href="#Image">Image</a></li>
+            <li><a href="#Video">Video</a></li>
+            <li><a href="#ytVideo">Youtube Video</a></li>
+            <li><a href="#Funfact">Fun fact</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="planettable">
+        <h2>Little info table</h2>
+        <table border="1">
+            <caption>Plantes and their properties</caption>
+            <tr>
+                <th>Name of the planet</th>
+                <th>Distance from sun</th>
+                <th>Number of Moons</th>
+                <th>Is it habitable?</th>
+            </tr>
+            <tr>
+                <td>Mercury</td>
+                <td>58 million km</td>
+                <td>0</td>
+                <td>No</td>
+            </tr><tr>
+                <td>Venus</td>
+                <td>108 million km</td>
+                <td>0</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Earth</td>
+                <td>150 million km</td>
+                <td>1</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Mars</td>
+                <td>228 million km</td>
+                <td>2</td>
+                <td>Maybe</td>
+            </tr>
+            <tr>
+                <td>Jupiter</td>
+                <td>778 million km</td>
+                <td>95</td>
+                <td>No</td>
+            </tr>
+        </table>
+        </section>
+        <section  id="Image">
+            <h3>Here take a look at our ringed planet!</h3>
+            <figure>
+                <img src="https://i.pinimg.com/736x/b9/a4/36/b9a4366a158cbca6bffbbb424691ebff.jpg" alt="Beautiful saturn.jpg">
+                <figcaption>Saturn with it's beautiful rings</figcaption>
+            </figure>
+        </section>
+        <section id="Video">
+            <h3>Check out this awesome video!!</h3>
+            <video src="video.mp4" controls></video>
+        </section>
+        <section id="ytVideo">
+            <h3> Check this youtube video for more info!</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lcZTcfdZ3Ow?si=EOs3vja4P1imf0oU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+    <section id="Funfact">
+    <aside>
+        <h3>FUN FACT!</h3>
+        <p> 💡Did you know Jupiter’s Great Red Spot is a massive storm larger than Earth?</p>
+    </aside>
+    </section>
+    <form>
+    <section id="quiz">
+        <fieldset>
+            <h2>Quiz time!!!</h2>
+            <p>These three simple questions to test your understanding</p>
+            <p><em>Single correct</em></p>
+            <p>Which of the following is closest to sun?</p>
+            <input type="radio" name="q1"id="a1" value="Mars" required> Mars
+            <input type="radio" name="q1"id="a2" value="Mercury"> Mercury
+            <br>
+            <p>Which planet has a big red spot?</p>
+            <input type="radio" name="q2" id="a3" value="Jupiter" required> Jupiter
+            <input type="radio" name="q2" id="a4" value="Mercury"> Mercury
+            <br>
+            <p><em>Multi correct type</em></p>
+            <p>Which of the following planets are <strong>NOT</strong> habitable?</p>
+            <input type="checkbox" name="q3"id="a5" value="Earth" required> Earth
+            <input type="checkbox" name="q3"id="a6" value="Mercury"> Mercury
+            <input type="checkbox" name="q3"id="a7" value="Venus"> Venus
+            <br>
+            <input type="submit" value="Show my performance">
+        </fieldset>
+    </section>
+    </form>
+    <footer>
+        <p>By your well wisher</p>
+        <p>13-6-2025</p>
+    </footer>
+</body>
+</html>
