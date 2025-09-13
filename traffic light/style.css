@@ -1,0 +1,72 @@
+#back{
+    background-color: black;
+    margin: auto;
+    width:163px;
+    height:497px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 85px;
+    border-radius: 30px;
+}
+
+#box1,#box2,#box3{
+    position: relative;
+    background-color: black;
+    margin: 50px auto 70px -45px;
+    height:100px;
+    width:250px;
+    border-radius: 20px;
+
+}
+
+#red,#yellow,#green{
+    position: absolute;
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+     top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#red{
+    background-color: rgb(255, 125, 125);
+    animation: redGlow 6s infinite;
+}
+
+#yellow{
+    background-color: rgb(247, 247, 95);
+    animation: yellowGlow 6s infinite;
+}
+
+#green{
+    background-color: rgb(86, 243, 86);
+    animation: greenGlow 6s infinite;
+}
+
+#stick{
+    background-color: black;
+    height: 200px;
+    width: 35px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@keyframes redGlow {
+  0%, 20%   { opacity: 1; box-shadow: 0 0 20px 10px red; }
+  33%, 100% { opacity: 0.3; box-shadow: none; }
+}
+
+@keyframes yellowGlow {
+  0%, 33%   { opacity: 0.3; box-shadow: none; }
+  34%, 54%  { opacity: 1; box-shadow: 0 0 20px 10px yellow; }
+  55%, 100% { opacity: 0.3; box-shadow: none; }
+}
+
+@keyframes greenGlow {
+  0%, 54%   { opacity: 0.3; box-shadow: none; }
+  55%, 80%  { opacity: 1; box-shadow: 0 0 20px 10px limegreen; }
+  81%, 100% { opacity: 0.3; box-shadow: none; }
+}
