@@ -1,0 +1,21 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#loader{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 15px solid lightblue;
+  border-top: 15px solid black;
+  animation: loading 1.5s steps(150) 0s infinite normal;
+
+}
+
+@keyframes loading {
+  from {transform: rotate(0deg);}
+  to{transform: rotate(360deg)}
+}
